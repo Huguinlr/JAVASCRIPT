@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+    <h1> Qual sua nacionalidade!?</h1>
+   
+    <label for="pais">Qual seu país?</label> <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar() {
+
+            var nacio = document.getElementById("pais")
+            var res = document.querySelector('div#res')
+            
+            res.innerHTML = `<p>Seu país natal é ${nacio}!!</p>`
+
+            res.innerHTML += `<p>Você é brasileiro(a)!</p>`
+
+        }
+
+
+    </script>
+</body>
+</html>

@@ -23,6 +23,25 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.393);
 }
 
+div > p > #botao {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(23, 108, 169, 0.644);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.487); 
+    font-style: arial;
+    font-weight: bold;
+    border: none;
+    color: rgb(246, 244, 244);
+}
+
+div > p > #botao:hover {
+
+    background-color: rgba(31, 147, 230, 0.463);
+    color: black;
+
+}
+
 footer {
     text-align: center;
     color: white;
